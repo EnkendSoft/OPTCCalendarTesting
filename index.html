@@ -36,6 +36,7 @@ body {font-family: "Lato", sans-serif;}
 <body>
 <div>
 <button class="tablink" onclick="openCity('App', this, 'red')" id="defaultOpen">App</button>
+<button class="tablink" onclick="openCity('Updates', this, 'orange')">Updates</button>
 <button class="tablink" onclick="openCity('About', this, 'orange')">About</button>
 
 </div>
@@ -44,7 +45,15 @@ body {font-family: "Lato", sans-serif;}
   <p>Download the app</p>
   <button onclick="openCity('About', this, 'orange')">Download</button>
 </div>
-
+    
+<div id="Updates" class="tabcontent">
+  <h3>Updates</h3>
+  <p>
+    <b>OPTC Calendar 0.0.5</b>
+      -Testing
+    </p>
+</div>
+    
 <div id="About" class="tabcontent">
   <h3>OPTC Calendar aplication in development</h3>
   <p>
