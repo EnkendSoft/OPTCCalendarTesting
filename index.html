@@ -36,13 +36,15 @@ body {font-family: "Lato", sans-serif;}
 </style>
 </head>
 <body>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<div>
+<button class="tablink" onclick="openCity('Start', this, 'red')" id="defaultOpen">Start</button>
 <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
 <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
-<div id="London" class="tabcontent">
-  <h3>London</h3>
+<button class="tablink" onclick="openCity('About', this, 'orange')">About</button>
+
+</div>
+<div id="Start" class="tabcontent">
+  <h3>Start</h3>
   <p>London is the capital city of England.</p>
 </div>
 
@@ -56,8 +58,8 @@ body {font-family: "Lato", sans-serif;}
   <p>Tokyo is the capital of Japan.</p>
 </div>
 
-<div id="Oslo" class="tabcontent">
-  <h3>Oslo</h3>
+<div id="About" class="tabcontent">
+  <h3>About</h3>
   <p>Oslo is the capital of Norway.</p>
 </div>
 
